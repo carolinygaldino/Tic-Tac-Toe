@@ -1,0 +1,29 @@
+table {
+  border-collapse: collapse;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 64px;
+  font-weight: bold;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+#reset {
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #008cba;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#reset:hover {
+  background-color: #006cba;
+}
